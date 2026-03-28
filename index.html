@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth Diary — Privacy Policy</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1d1d1f;
+            --muted: #6e6e73;
+            --border: #d2d2d7;
+            --accent: #0071e3;
+            --card-bg: #f5f5f7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1d1d1f;
+                --text: #f5f5f7;
+                --muted: #a1a1a6;
+                --border: #424245;
+                --accent: #2997ff;
+                --card-bg: #2d2d2f;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h2 { font-size: 1.2rem; font-weight: 600; margin: 1.8rem 0 0.6rem; }
+        p, li { font-size: 0.95rem; color: var(--text); margin-bottom: 0.5rem; }
+        ul { padding-left: 1.2rem; }
+        .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+        .lang-switch {
+            display: flex; gap: 0.5rem; margin-bottom: 2rem; flex-wrap: wrap;
+        }
+        .lang-switch button {
+            padding: 0.4rem 1rem; border: 1px solid var(--border); border-radius: 20px;
+            background: var(--card-bg); color: var(--text); cursor: pointer;
+            font-size: 0.85rem; transition: all 0.2s;
+        }
+        .lang-switch button.active,
+        .lang-switch button:hover {
+            background: var(--accent); color: #fff; border-color: var(--accent);
+        }
+        .lang { display: none; }
+        .lang.active { display: block; }
+        .contact-box {
+            margin-top: 2rem; padding: 1rem; background: var(--card-bg);
+            border-radius: 12px; border: 1px solid var(--border);
+        }
+        .contact-box a { color: var(--accent); text-decoration: none; }
+        footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<div class="lang-switch">
+    <button onclick="switchLang('zh')" id="btn-zh" class="active">繁體中文</button>
+    <button onclick="switchLang('en')" id="btn-en">English</button>
+    <button onclick="switchLang('ja')" id="btn-ja">日本語</button>
+</div>
+
+<!-- 繁體中文 -->
+<div id="lang-zh" class="lang active">
+    <h1>隱私權政策</h1>
+    <p class="subtitle">Wealth Diary — 最後更新：2025 年 6 月</p>
+
+    <h2>概述</h2>
+    <p>Wealth Diary 是一款個人記帳應用程式，我們高度重視您的隱私。本政策說明我們如何處理您的資料。</p>
+
+    <h2>資料收集與儲存</h2>
+    <ul>
+        <li>所有記帳資料（交易、帳戶、設定等）僅儲存在您的裝置本機及您的個人 iCloud 帳號中。</li>
+        <li>我們<strong>不會</strong>將您的資料傳送至任何第三方伺服器。</li>
+        <li>我們<strong>不會</strong>收集任何個人識別資訊。</li>
+    </ul>
+
+    <h2>iCloud 同步</h2>
+    <p>若您啟用 iCloud，資料將透過 Apple 的 CloudKit 在您的裝置間同步。此同步完全由 Apple 管理，我們無法存取您 iCloud 中的任何資料。</p>
+
+    <h2>相機與麥克風</h2>
+    <ul>
+        <li><strong>相機</strong>：用於拍攝單據進行 AI 辨識記帳。照片僅在裝置上處理，不會上傳至外部伺服器。</li>
+        <li><strong>麥克風</strong>：用於語音輸入記帳。語音資料僅在裝置上透過 Apple 語音辨識處理。</li>
+        <li><strong>相簿</strong>：用於選擇單據照片進行 AI 辨識。照片僅在裝置上處理。</li>
+    </ul>
+
+    <h2>AI 辨識功能</h2>
+    <p>當您使用 AI 辨識功能時，單據影像會傳送至您所選擇的 AI 服務提供商（如 OpenAI、Google Gemini）進行文字辨識。此過程僅傳送影像資料，不包含任何個人識別資訊。請參閱各 AI 服務提供商的隱私權政策。</p>
+
+    <h2>訂閱與購買</h2>
+    <p>應用程式內購買與訂閱透過 Apple 的 App Store 處理。我們不會收集或儲存任何付款資訊。</p>
+
+    <h2>追蹤與分析</h2>
+    <ul>
+        <li>我們<strong>不使用</strong>任何第三方分析或追蹤工具。</li>
+        <li>我們<strong>不會</strong>追蹤您的使用行為。</li>
+        <li>我們<strong>不會</strong>投放任何廣告。</li>
+    </ul>
+
+    <h2>兒童隱私</h2>
+    <p>本應用程式不針對 13 歲以下兒童，亦不會故意收集兒童的個人資訊。</p>
+
+    <h2>政策變更</h2>
+    <p>若本政策有重大變更，我們將透過應用程式內通知或更新本頁面告知您。</p>
+
+    <div class="contact-box">
+        <h2>聯絡我們</h2>
+        <p>如有隱私相關問題，請透過電子郵件聯繫：<a href="mailto:xionhsu@gmail.com">xionhsu@gmail.com</a></p>
+    </div>
+</div>
+
+<!-- English -->
+<div id="lang-en" class="lang">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Wealth Diary — Last updated: June 2025</p>
+
+    <h2>Overview</h2>
+    <p>Wealth Diary is a personal bookkeeping app. We take your privacy seriously. This policy explains how we handle your data.</p>
+
+    <h2>Data Collection & Storage</h2>
+    <ul>
+        <li>All bookkeeping data (transactions, accounts, settings, etc.) is stored only on your device and in your personal iCloud account.</li>
+        <li>We do <strong>not</strong> send your data to any third-party servers.</li>
+        <li>We do <strong>not</strong> collect any personally identifiable information.</li>
+    </ul>
+
+    <h2>iCloud Sync</h2>
+    <p>If you enable iCloud, your data will sync across your devices via Apple's CloudKit. This sync is fully managed by Apple, and we have no access to any data in your iCloud account.</p>
+
+    <h2>Camera & Microphone</h2>
+    <ul>
+        <li><strong>Camera</strong>: Used to photograph receipts for AI-powered bookkeeping. Photos are processed on-device only and are not uploaded to external servers.</li>
+        <li><strong>Microphone</strong>: Used for voice input bookkeeping. Audio is processed on-device via Apple's Speech Recognition.</li>
+        <li><strong>Photo Library</strong>: Used to select receipt images for AI recognition. Photos are processed on-device only.</li>
+    </ul>
+
+    <h2>AI Recognition</h2>
+    <p>When you use the AI recognition feature, receipt images are sent to your chosen AI service provider (e.g., OpenAI, Google Gemini) for text recognition. Only the image data is transmitted — no personally identifiable information is included. Please refer to the respective AI provider's privacy policy.</p>
+
+    <h2>Subscriptions & Purchases</h2>
+    <p>In-app purchases and subscriptions are processed through Apple's App Store. We do not collect or store any payment information.</p>
+
+    <h2>Tracking & Analytics</h2>
+    <ul>
+        <li>We do <strong>not</strong> use any third-party analytics or tracking tools.</li>
+        <li>We do <strong>not</strong> track your usage behavior.</li>
+        <li>We do <strong>not</strong> display any advertisements.</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>This app is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+    <h2>Policy Changes</h2>
+    <p>If we make significant changes to this policy, we will notify you through in-app notifications or by updating this page.</p>
+
+    <div class="contact-box">
+        <h2>Contact Us</h2>
+        <p>For privacy-related questions, please contact us via email: <a href="mailto:xionhsu@gmail.com">xionhsu@gmail.com</a></p>
+    </div>
+</div>
+
+<!-- 日本語 -->
+<div id="lang-ja" class="lang">
+    <h1>プライバシーポリシー</h1>
+    <p class="subtitle">Wealth Diary — 最終更新：2025年6月</p>
+
+    <h2>概要</h2>
+    <p>Wealth Diary は個人向け家計簿アプリです。お客様のプライバシーを大切にしています。本ポリシーでは、データの取り扱いについて説明します。</p>
+
+    <h2>データの収集と保存</h2>
+    <ul>
+        <li>すべての家計データ（取引、口座、設定など）は、お客様のデバイスおよび個人の iCloud アカウントにのみ保存されます。</li>
+        <li>お客様のデータを第三者のサーバーに送信することは<strong>ありません</strong>。</li>
+        <li>個人を特定できる情報を収集することは<strong>ありません</strong>。</li>
+    </ul>
+
+    <h2>iCloud 同期</h2>
+    <p>iCloud を有効にすると、Apple の CloudKit を通じてデバイス間でデータが同期されます。この同期は Apple が完全に管理しており、当方がお客様の iCloud データにアクセスすることはできません。</p>
+
+    <h2>カメラとマイク</h2>
+    <ul>
+        <li><strong>カメラ</strong>：レシートを撮影して AI 記帳に使用します。写真はデバイス上でのみ処理され、外部サーバーにアップロードされません。</li>
+        <li><strong>マイク</strong>：音声入力による記帳に使用します。音声は Apple の音声認識によりデバイス上で処理されます。</li>
+        <li><strong>フォトライブラリ</strong>：レシート画像を選択して AI 認識に使用します。写真はデバイス上でのみ処理されます。</li>
+    </ul>
+
+    <h2>AI 認識機能</h2>
+    <p>AI 認識機能を使用する際、レシート画像はお客様が選択した AI サービスプロバイダー（OpenAI、Google Gemini など）に送信されます。画像データのみが送信され、個人を特定できる情報は含まれません。各 AI プロバイダーのプライバシーポリシーをご参照ください。</p>
+
+    <h2>サブスクリプションと購入</h2>
+    <p>アプリ内課金とサブスクリプションは Apple の App Store を通じて処理されます。当方が支払い情報を収集・保存することはありません。</p>
+
+    <h2>トラッキングと分析</h2>
+    <ul>
+        <li>第三者の分析ツールやトラッキングツールは<strong>使用していません</strong>。</li>
+        <li>お客様の利用行動を追跡することは<strong>ありません</strong>。</li>
+        <li>広告を表示することは<strong>ありません</strong>。</li>
+    </ul>
+
+    <h2>お子様のプライバシー</h2>
+    <p>本アプリは 13 歳未満のお子様を対象としておらず、お子様の個人情報を意図的に収集することはありません。</p>
+
+    <h2>ポリシーの変更</h2>
+    <p>本ポリシーに重大な変更がある場合、アプリ内通知または本ページの更新によりお知らせします。</p>
+
+    <div class="contact-box">
+        <h2>お問い合わせ</h2>
+        <p>プライバシーに関するご質問は、メールにてご連絡ください：<a href="mailto:xionhsu@gmail.com">xionhsu@gmail.com</a></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Wealth Diary. All rights reserved.</p>
+</footer>
+
+<script>
+    function switchLang(lang) {
+        document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.lang-switch button').forEach(el => el.classList.remove('active'));
+        document.getElementById('lang-' + lang).classList.add('active');
+        document.getElementById('btn-' + lang).classList.add('active');
+        const htmlLang = { zh: 'zh-Hant', en: 'en', ja: 'ja' };
+        document.documentElement.lang = htmlLang[lang];
+    }
+    // 自動偵測瀏覽器語言
+    (function() {
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('ja')) switchLang('ja');
+        else if (userLang.startsWith('en')) switchLang('en');
+    })();
+</script>
+</body>
+</html>
